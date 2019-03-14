@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+  <Resource 
+     name="jdbc/myDatabase" 
+     driverClassName="org.apache.derby.jdbc.ClientDriver" 
+     url="jdbc:derby:myDatabase"
+     type="javax.sql.DataSource" 
+     username="someuser" 
+     password="somepassword"
+     auth="Container"
+     maxActive="8" />
+</Context>
